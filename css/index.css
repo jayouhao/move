@@ -1,0 +1,17 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.navigation li{
+    height: 1.852rem;
+    color: #fff;
+    background: #B40B00;
+    line-height: 1.852rem;
+    font-size: 0.5rem;
+    padding: 0 3.28%;
+    margin-right: 2px;
+}
+.navigation li:nth-child(1){
+    background: #EB3429;
+}
