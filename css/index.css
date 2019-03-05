@@ -9,9 +9,13 @@
     background: #B40B00;
     line-height: 1.852rem;
     font-size: 0.5rem;
-    padding: 0 3.28%;
     margin-right: 2px;
+    text-align: center;
+    width: 28%;
 }
 .navigation li:nth-child(1){
     background: #EB3429;
+}
+.navigation li:nth-child(4){
+    width: 15%;
 }
