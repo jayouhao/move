@@ -1,0 +1,80 @@
+/*
+* @Author: banjiajia
+* @Date:   2019-03-06 09:11:18
+* @Last Modified by:   banjiajia
+* @Last Modified time: 2019-03-06 17:08:33
+*/
+body {
+  background: url("../../img/background.png");
+  background-size: 100% 100%;
+  min-width: 1320px;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.time_top {
+  width: 100%;
+  height: 27.463vw;
+  min-height: 367.45px;
+  background: url(../../img/2.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.time-num {
+  width: 34%;
+  display: flex;
+  justify-content: space-between;
+  color: #391A1B;
+  font-size: 46px;
+  position: absolute;
+  bottom: 2vw;
+  left: 33%;
+  font-weight: bold;
+  cursor: default;
+}
+
+.time-num li {
+  width: 15.4%;
+  text-align: center;
+}
+
+.navigation {
+  width: 1320px;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.navigation img {
+  width: 16.667%;
+  height: 100%;
+  float: left;
+  cursor: pointer;
+}
+
+.legend_cen {
+  width: 100%;
+}
+.legend_cen img {
+  width: 100%;
+  display: block;
+}
+
+.legend_cen {
+  overflow: hidden;
+  position: relative;
+}
+.legend_cen img {
+  min-width: 1903px;
+  position: relative;
+  left: 50%;
+  margin-left: -951.5px;
+}
+
+/*# sourceMappingURL=legend.css.map */
