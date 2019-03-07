@@ -2,7 +2,7 @@
 * @Author: banjiajia
 * @Date:   2019-03-05 16:16:14
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-07 15:15:53
+* @Last Modified time: 2019-03-07 15:20:17
 */
 
 $(function(){	    
@@ -105,12 +105,11 @@ var swiper = new Swiper('.Boutique-container', {
 // 监听滚动距离
 window.onscroll=function(){
     //获取滚动条的滚动距离
-    var t =document.documentElement.scrollTop;    
-    if(t>200){
-      $(".bottom-all").fadeOut();
+    var t =document.documentElement.scrollTop;
+    console.log(t);
+    if(t>200){      
       $(".sidebar1-right").fadeIn();
     }else{
-      $(".sidebar1-right").fadeOut();
-      $(".bottom-all").fadeIn();      
+      $(".sidebar1-right").fadeOut();      
     }
 }
