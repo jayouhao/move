@@ -2,14 +2,10 @@
 * @Author: banjiajia
 * @Date:   2019-03-05 16:16:14
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-07 14:55:51
+* @Last Modified time: 2019-03-07 15:15:53
 */
 
-$(function(){	
-    //页面进入
-    setTimeout(function(){
-      $(".popup-playing").fadeIn();
-    },1000);
+$(function(){	    
 
     //回到顶部
     $(".sidebar1-right .sidebar1-head").click(function(){
@@ -35,8 +31,7 @@ $(function(){
 
     // 关闭
     $(".popup .popup-close").click(function(event) {
-      $(this).parents(".popup-backgrund").fadeOut();
-        $(".sidebar1-right").show();     
+      $(this).parents(".popup-backgrund").fadeOut();        
     });
 
 
@@ -105,3 +100,17 @@ var swiper = new Swiper('.Boutique-container', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+
+// 监听滚动距离
+window.onscroll=function(){
+    //获取滚动条的滚动距离
+    var t =document.documentElement.scrollTop;    
+    if(t>200){
+      $(".bottom-all").fadeOut();
+      $(".sidebar1-right").fadeIn();
+    }else{
+      $(".sidebar1-right").fadeOut();
+      $(".bottom-all").fadeIn();      
+    }
+}
