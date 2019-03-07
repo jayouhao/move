@@ -3,7 +3,7 @@
 * @Author: banjiajia
 * @Date:   2019-03-07 13:57:11
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-07 17:24:03
+* @Last Modified time: 2019-03-07 17:31:09
 */
 .nav {
   width: 100%;
@@ -42,6 +42,7 @@
 }
 
 .list-title {
+  width: 65.47%;
   display: block;
   margin: auto;
 }
