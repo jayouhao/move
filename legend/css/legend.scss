@@ -2,7 +2,7 @@
 * @Author: banjiajia
 * @Date:   2019-03-06 09:11:18
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-06 17:08:33
+* @Last Modified time: 2019-03-07 09:06:40
 */
 
 body{
@@ -57,20 +57,10 @@ body{
 	width: 100%;
 	img{
 		width: 100%;
-		display: block;	
+	    display: block;
+	    max-width: 1903px;
+	    margin: auto;
 	}
 }
 
 
-
-// 第一种情况
-.legend_cen{
-	overflow: hidden;
-	position: relative;	
-	img{
-		min-width: 1903px;
-		position: relative;
-		left: 50%;
-		margin-left: -951.5px;
-	}
-}

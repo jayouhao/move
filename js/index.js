@@ -2,12 +2,22 @@
 * @Author: banjiajia
 * @Date:   2019-03-05 16:16:14
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-06 16:19:21
+* @Last Modified time: 2019-03-07 14:55:51
 */
 
 $(function(){	
+    //页面进入
+    setTimeout(function(){
+      $(".popup-playing").fadeIn();
+    },1000);
+
+    //回到顶部
+    $(".sidebar1-right .sidebar1-head").click(function(){
+      $("html,body").animate({scrollTop: 0},300);
+    })
     $(".navigation img,.multiplayer .gos,.QQflock img,.bottom-img,.arrows img,.prefecture-nav img,\
-        .cruel .cruel-button,.rule img,.unit img").mouseover(function (){  
+        .cruel .cruel-button,.rule img,.unit img,\
+        .sidebar-ul .colonel-button,.sidebar1-list-button img,.popup .popup-download,.popup .popup-close,.open-connect img,.open-tub img").mouseover(function (){  
         var tsurl=$(this).attr("src");
         this.tsurl=tsurl;
         if(tsurl.includes("默认")){
@@ -22,6 +32,16 @@ $(function(){
         	$(this).attr("src",enter)
     	}         
     }); 
+
+    // 关闭
+    $(".popup .popup-close").click(function(event) {
+      $(this).parents(".popup-backgrund").fadeOut();
+        $(".sidebar1-right").show();     
+    });
+
+
+
+
         $(".multiplayer .up").mouseover(function (){  
         var tsurl=$(this).find("img").attr("src");
         this.tsurl=tsurl;
