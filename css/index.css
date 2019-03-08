@@ -3,7 +3,7 @@
 * @Author: banjiajia
 * @Date:   2019-03-06 09:11:18
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-08 12:51:04
+* @Last Modified time: 2019-03-08 15:00:01
 */
 body {
   background: url("../img/background.png");
@@ -317,13 +317,13 @@ body {
 .gift .cen-list {
   width: 100%;
   background: #fff;
-  min-height: 396px;
+  min-height: 400px;
 }
 .gift .cen-li {
   width: 100%;
-  height: 65px;
+  height: 66px;
   border-bottom: 1px solid #e6ded4;
-  line-height: 65px;
+  line-height: 66px;
 }
 .gift .ranking {
   display: inline-block;
@@ -369,8 +369,8 @@ body {
   margin-left: 66px;
 }
 .gift .right-li {
-  height: 36px;
-  line-height: 36px;
+  height: 32.3px;
+  line-height: 32.3px;
 }
 .gift .bottom {
   font-size: 18px;

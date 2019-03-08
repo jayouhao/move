@@ -3,7 +3,7 @@
 * @Author: banjiajia
 * @Date:   2019-03-06 09:11:18
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-08 12:47:49
+* @Last Modified time: 2019-03-08 15:17:16
 */
 body {
   background: url("../../img/background.png");
@@ -494,6 +494,19 @@ body {
 }
 .bottom-finish .right:hover {
   background: url("../../img/s色块3（鼠标经过）.png") no-repeat;
+}
+
+.video-box {
+  position: absolute;
+  width: 1320px;
+  left: 50%;
+  margin-left: -660px;
+}
+.video-box video {
+  width: 49%;
+  height: 360px;
+  margin-left: 37.5%;
+  margin-top: 0.4%;
 }
 
 /*# sourceMappingURL=legend.css.map */

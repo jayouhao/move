@@ -2,7 +2,7 @@
 * @Author: banjiajia
 * @Date:   2019-03-06 09:11:18
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-08 12:47:49
+* @Last Modified time: 2019-03-08 15:17:16
 */
 
 body{
@@ -496,3 +496,24 @@ body{
 	}
 }
 // end
+
+
+
+
+
+
+
+
+// video
+.video-box{
+position: absolute;
+    width: 1320px;
+    left: 50%;
+    margin-left: -660px;
+	video{
+		width: 49%;
+    height: 360px;
+    margin-left: 37.5%;
+    margin-top: 0.4%;
+	}
+}
