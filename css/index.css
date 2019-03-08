@@ -3,7 +3,7 @@
 * @Author: banjiajia
 * @Date:   2019-03-06 09:11:18
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-08 11:50:22
+* @Last Modified time: 2019-03-08 12:51:04
 */
 body {
   background: url("../img/background.png");
@@ -317,7 +317,7 @@ body {
 .gift .cen-list {
   width: 100%;
   background: #fff;
-  min-height: 400px;
+  min-height: 396px;
 }
 .gift .cen-li {
   width: 100%;
@@ -667,7 +667,6 @@ body {
   width: 168px;
   height: 590px;
   background: url(../img/侧导航.png) no-repeat;
-  background-color: #1D1122;
   position: fixed;
   top: 50%;
   margin-top: -295px;
